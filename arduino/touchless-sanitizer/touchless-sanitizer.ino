@@ -8,6 +8,7 @@ Servo servo;
 #define SENSOR_ECHO 12
 #define VOLUME 0
 #define SERVO 9
+#define BUZZER 10
 
 void setup() {
   Serial.begin(9600);
@@ -50,9 +51,9 @@ void loop() {
     Serial.println(volumeRatio);
 
     // play sound
-    tone(10, 2093, 50);
+    tone(BUZZER, 2093, 50);
     delay(100);
-    tone(10, 2093, 500);
+    tone(BUZZER, 2093, 500);
 
     // wait user moving hands to sanitizer
     delay(1000);
