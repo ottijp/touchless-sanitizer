@@ -1,6 +1,6 @@
 # Touchless Sanitizer
 
-[日本語](README.ja.html)
+[日本語](README.ja.md)
 
 ![](images/touchless-sanitizer.gif)
 
